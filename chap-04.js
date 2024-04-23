@@ -2,7 +2,7 @@
 
 // 1. Declare 3 variables in one statement
 
-
+// var name,dateofbirth,course;
 
 // 2. Declare 5 legal & 5 illegal variable names.
 
