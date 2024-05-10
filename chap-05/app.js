@@ -9,6 +9,18 @@
 
 // 2. Repeat task1 for subtraction, multiplication, division & modulus.
 
+// Subtraction
+// var sub = firstNum - secondNum;
+// document.write("Subtraction of " + firstNum + " and " + secondNum + " is " + sub + "<br>");
+// // Multiplication
+// var mul = firstNum * secondNum;
+// document.write("Multiplication of " + firstNum + " and " + secondNum + " is " + mul + "<br>");
+// // Division
+// var div = firstNum / secondNum;
+// document.write("Division of " + firstNum + " and " + secondNum + " is " + div + "<br>");
+// // Modulus
+// var mod = firstNum % secondNum;
+// document.write("Modulus of " + firstNum + " and " + secondNum + " is " + mod + "<br>");
 
 // 3. Do the following using JS Mathematic Expressions
 // a. Declare a variable.
@@ -66,10 +78,19 @@
 
 // 5. Write a script to display multiplication table of any number in your browser. 
 
-// document.write('Table of '+5+'<br>')
-// for(var i=1;i<=10;i++){
-//     document.write('5 X '+i+' ='+5*i+"<br>")
-// }
+// var tableNum = 4;
+// var counter = 1;
+//  var incre = 1;
+// document.write(
+//          tableNum + "X" + counter++ + "=" + tableNum * incre++ + "<br>" +
+//   tableNum + "X" + counter++ + "=" + tableNum * incre++ + "<br>" +
+//      tableNum + "X" + counter++ + "=" + tableNum * incre++ + "<br>" +
+//      tableNum + "X" + counter++ + "=" + tableNum * incre++ + "<br>" + tableNum + "X" + counter++ + "=" + tableNum * incre++ + "<br>" +
+//      tableNum + "X" + counter++ + "=" + tableNum * incre++ + "<br>" + tableNum + "X" + counter++ + "=" + tableNum * incre++ + "<br>" +
+//      tableNum + "X" + counter++ + "=" + tableNum * incre++ + "<br>" +
+//      tableNum + "X" + counter++ + "=" + tableNum * incre++ + "<br>" +
+//      tableNum + "X" + counter++ + "=" + tableNum * incre++ + "<br>" 
+// );
 
 // 6. The Temperature Converter: It’s hot out! Let’s make a converter based on the steps here.
 // a. Store a Celsius temperature into a variable.
