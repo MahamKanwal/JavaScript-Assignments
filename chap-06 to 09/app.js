@@ -99,13 +99,13 @@
 
 // var obtainedMarks=obtainedSub1+obtainedSub2+obtainedSub3;
 // var percentage=(obtainedMarks/totalmarks)*100;
-// percentage=percentage.toFixed(2);
+// percentage=percentage;
 // var percentage1=(obtainedSub1/100)*100;
-// percentage1=percentage1.toFixed(2);
+// percentage1=percentage1;
 // var percentage2=(obtainedSub2/100)*100;
-// percentage2=percentage2.toFixed(2);
+// percentage2=percentage2;
 // var percentage3=(obtainedSub3/100)*100;
-// percentage3=percentage3.toFixed(2);
+// percentage3=percentage3;
 
 // document.write('<Table>')
 // document.write('<tr>');
