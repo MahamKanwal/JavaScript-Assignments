@@ -129,17 +129,18 @@
 // sort the array in ascending order using Array’s sort
 // method.
 
-
-
+// var score=[320,230,480,120];
+// document.write('Scores of Students : '+score+'<br>');   
+// document.write('Ordered Scores of Students : '+score.sort()+'<br>');
 
 // 11. Write a program to initialize an array with city names.
 // Copy 3 array elements from cities array to selectedCities
 // array.
 
-// var cities = ["New York", "London", "Paris", "Tokyo", "Sydney"];
+// var cities = ["Karachi", "Lahore", "Islamabad", "Quetta", "Peshawar"];
 // document.write("<p>Original array of city names:</p>");
 // document.write("<p>" + cities + "</p>");
-// var selectedCities = [cities[0] , cities[2] , cities[4]];
+// var selectedCities = [cities[2] , cities[3] ,];
 // document.write("<p>Array of selected cities:</p>");
 // document.write("<p>" + selectedCities + "</p>");
 
@@ -148,31 +149,56 @@
 // var arr = [“This ”, “ is ”, “ my ”, “ cat”];
 // (Use array’s join method)
 
-
-
+// var array=['This','is','my','cat'];
+// document.write('Array : '+'<br>'+array+'<br>');
+// var string=array.join(' ');
+// document.write('String : '+'<br>'+string);
 
 // 13. Create a new array. Store values one by one in such a way
 // that you can access the values in the order in which they
 // were stored. (FIFO-First In First Out)
 
+// var devices = ['keyboard', 'mouse', 'printer', 'monitor'];
+// var out;
+// document.write('Devices :' +devices+ '<br>');
+// out = devices.shift();
+// document.write('Out' + '<br>' + out + '<br>')
 
-
+// out = devices.shift();
+// document.write('Out' + '<br>' + out + '<br>')
+// out = devices.shift();
+// document.write('Out' + '<br>' + out + '<br>')
+// out = devices.shift();
+// document.write('Out' + '<br>' + out + '<br>')
 
 // 14. Create a new array. Store values one by one in such a way
 // that you can access the values in reverse order. (Last In-
 // First Out)
 
-
-
+// var devices = []
+// devices.push("Keyboard");
+// devices.push("mouse");
+// devices.push("printer");
+// devices.push("monitor");
+// console.log(devices.pop());
+// console.log(devices.pop());
+// console.log(devices.pop());
+// console.log(devices.pop());
 
 // 15. Write a program to store phone manufacturers (Apple,
 //     Samsung, Motorola, Nokia, Sony & Haier) in an array.
 //     Display the following dropdown/select menu in your
 //     browser using document.write() method:
 
-
-
-
-         
+// var phoneMenu = ['Apple', 'Samsung', 'Motorola', 'Nokia', 'Sony', 'Haier'];
+// var index = 0;
+// document.write('<select>')
+// document.write('<option>' + phoneMenu[index++] + '<option>')
+// document.write('<option>' + phoneMenu[index++] + '<option>')
+// document.write('<option>' + phoneMenu[index++] + '<option>')
+// document.write('<option>' + phoneMenu[index++] + '<option>')
+// document.write('<option>' + phoneMenu[index++] + '<option>')
+// document.write('<option>' + phoneMenu[index++] + '<option>')
+// document.write('<select>')
 
     //    End Chapter 14 to 16
