@@ -80,10 +80,16 @@
 // Write a program to enable “search by user input” in an array.
 // After searching, prompt the user whether the given item is found in the list or not. Example:
 
+// var A = ["cake", "apple pie", "cookie", "chips", "patties"];
+// var userInput = prompt("Welcome to our ABC bakery.What do you want to order maam/sir?");
+
+
 
 
 // 8. Write a program to identify the largest number in the given array.
 // A = [24, 53, 78, 91, 12].
+
+
 
 
 
@@ -96,7 +102,8 @@
 
 // 10. Write a program to print multiples of 5 ranging 1 to 100.
 
-
-
+for(var i=5;i<=100;i=i+5){
+         document.write(i+',')
+ }
 
 // ----------- End of Chapter 17-20 ----------
