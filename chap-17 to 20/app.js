@@ -6,16 +6,19 @@
 
 // 2. Declare and initialize a multidimensional array representing the following matrix:
 
-//  var multidimensionalArray = [ [0,1,2,3],
+//  var matrix = [ [0,1,2,3],
 //               [1,0,1,2] , 
 //               [2,1,0,1] 
 //             ];
-// console.log(multidimensionalArray);
+// for (var i=0; i<matrix.length; i++){
+//     document.write(matrix[i].join(""));
+//     document.write("<br>");
+// }
 
 // 3. Write a program to print numeric counting from 1 to 10.
 
 // for (var i = 1; i <= 10; i++) {
-//     document.write(i + "<br>");
+//      document.write(i + "<br>");
 // }
     
 // 4. Write a program to print multiplication table of any number using for loop.
@@ -82,28 +85,54 @@
 
 // var A = ["cake", "apple pie", "cookie", "chips", "patties"];
 // var userInput = prompt("Welcome to our ABC bakery.What do you want to order maam/sir?");
+// userInput = userInput.toLowerCase();
+// var check = false;
+// for (var i = 0; i < A.length; i++) {
+//     if (userInput === A[i]) {
+//         document.write(A[i] + ' is available at index ' + i + ' in our bakery')
+//         check = true;
 
+//     }
+// }
 
+// if (check === false) {
+//     document.write('We are sorry .' + userInput + ' is not available in our bakery')
 
+// }
 
 // 8. Write a program to identify the largest number in the given array.
 // A = [24, 53, 78, 91, 12].
 
-
-
-
-
+// var numbers = [24, 53, 78, 91, 28];
+// var largestNum = numbers[0];
+// console.log(numbers[0]);
+// for(var i=0; i<numbers.length; i++){
+//     if(numbers[i]>largestNum){
+//         largestNum=numbers[i]
+//     }
+// }
+// document.write('Array items : '+numbers+'<br>');
+// document.write('The largest number is '+ largestNum)
 
 // 9. Write a program to identify the smallest number in the given array.
 // A = [24, 53, 78, 91, 12]
 
-
+// var numbers = [24, 53, 78, 91, 12];
+// var smallestNum = numbers[0];
+// console.log(numbers[0]);
+// for(var i=0; i<numbers.length; i++){
+//     if(numbers[i]<smallestNum){
+//         smallestNum=numbers[i]
+//     }
+// }
+// document.write('Array items : '+numbers+'<br>');
+// document.write('The smallest number is '+ smallestNum)
 
 
 // 10. Write a program to print multiples of 5 ranging 1 to 100.
 
-for(var i=5;i<=100;i=i+5){
-         document.write(i+',')
- }
+// for(var i=5;i<=100;i=i+5){
+//          document.write(i+',')
+//  }
 
 // ----------- End of Chapter 17-20 ----------
