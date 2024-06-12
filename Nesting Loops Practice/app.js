@@ -78,3 +78,61 @@
 //         }
 //         document.write("<br>");
 //       }
+
+// var originalNumber = 100;
+// var newNumber = originalNumber + 500  ;
+// console.log(newNumber);
+
+// var caseOty = 144;
+// alert(caseOty);
+
+// var popularNumber = 4;
+// var popularNumber = 2 + 2;
+// alert(2 + 2);
+
+// var popularNumber = 3*12;
+// alert(popularNumber);
+
+// var num = 10;
+// var anothernum = 1;
+// var popularNumber = num + anothernum;
+// alert(popularNumber);
+
+// console.log(4%30);
+
+// var message = "Thank you";
+// var userName = " Maham Kanwal";
+// var banger = "!";
+// var customMessage = message +  userName + banger;
+// alert(customMessage);
+
+// alert ("Thank you " + " Maham Kanwal" + "!")
+
+// alert("2 plus 2 equals " + 2 + 2);
+
+// if(fullName === "Mark" + " " + "Myers"){
+// }
+
+// var correctAnswer = "Vactican";
+// if (x === correctAnswer){
+//     alert("Correct");
+// }
+// else{
+//     score--;
+//     user10 = "problematic";
+//     alert("Incorrect");
+// }
+
+// if(weight > 300 & time < 6){
+//     alert("Come to our tryout!");
+// }
+// else{
+// alert("Come to our cookout!");
+// }
+
+
+
+
+
+
+
