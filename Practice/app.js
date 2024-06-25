@@ -60,3 +60,39 @@
 // var slicedFruit = fruits.slice(-4,-2);
 // console.log(slicedFruit);
 
+// var userMonth = prompt("Enter your month");
+// var userMonthLength = userMonth.length;
+// if(userMonthLength>3){
+//     console.log(userMonth.slice(0,3))
+// }
+
+// var text = "hello my name is               Maham name"
+
+// var textLength = text.length;
+// for (var i=0 ; i<textLength; i++){
+//     if(text.slice(i,i+7)=="Maham"){
+//         alert("name is found")
+// break
+//     }
+// }
+// console.log(text.slice(i,i+2));
+// console.log(text.slice(2,4));
+
+// var text = "hello my name is                    Tayyaba name ";
+
+// // //  1, 8 
+// // //  0 , 2  he
+// // //  1 , 3  el
+// // // 2 , 4  ll
+
+// // // 16 , 18  "  "
+
+// var textLength = text.length;
+// for(var i =0 ;i<textLength; i++){
+//     if(text.slice(i,i+7)== "Tayyaba"){
+//       alert("name is found")
+//       break;
+//     };
+// }
+//     console.log(text.slice(i,i+2));
+//     console.log(text.slice(2,4));
