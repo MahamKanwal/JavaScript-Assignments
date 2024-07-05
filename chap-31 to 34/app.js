@@ -43,7 +43,15 @@
 // Task 5
 // Write a program that shows the message “First fifteen days of the month” if the date is less than 16th of the month else shows “Last days of the month”. 
 
+// var date = new Date();
+// var todayDate = date.getDate();
 
+// if(todayDate<16){
+//     document.write("First fifteen days of the month");
+// }
+// else{
+//     document.write("Last days of the month");
+// }
 
 // Task 6
 //  Write a program that determines the minutes since midnight, Jan. 1, 1970 and assigns it to a variable that hasn't been declared beforehand. Use any variable you like to represent the Date object.
