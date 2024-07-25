@@ -96,3 +96,100 @@
 // }
 //     console.log(text.slice(i,i+2));
 //     console.log(text.slice(2,4));
+
+// var cityToCheck = "boston";
+//  var firstChar = cityToCheck.slice(0, 1);
+//  var otherChars = cityToCheck.slice(1);
+//  firstChar = firstChar.toUpperCase();
+//  otherChars = otherChars.toLowerCase();
+//  var cappedCity = firstChar + otherChars;
+// console.log(cappedCity)
+
+// var str = prompt("Enter some text");
+//  var numChars = str.length;
+//  for (var i = 0; i < numChars; i++) {
+//  if (str.slice(i, i + 2) === " ") {
+//  alert("No double spaces!");
+//  break;
+//  }
+//  }
+
+// var text = "MahamKanwal"
+// for (var i = 0; i < text.length; i++) {
+//      if (text.slice(i, i + 12) === "World War II") {
+//      text = text.slice(0, i) + "the Second World War" + text.slice(i + 12);
+//      }
+//     }
+
+// var text = "To be or not to be.";
+//  var segIndex = text.lastIndexOfIndexOf("be");
+//  console.log(segIndex)
+
+// let str = "hello world";
+// let substring1 = "world";
+// let substring2 = "javascript";
+
+// console.log(str.indexOf(substring1)); // Output: 6
+// console.log(str.indexOf(substring2)); // Output: -1
+
+// var text = "Ali is husband  of Fatima Zehra";
+// for (var i = 0; i < text.length; i++){
+//     if(text.charAt(i) === "!"){
+//         alert("Exclamation point found");
+//         break;
+//     }
+// }
+
+// while loops
+
+// var correctPass = "Class123";
+// var userPass = " ";
+// while(userPass !== correctPass){
+//     userPass = prompt("Enter your password")
+
+// if(userPass === correctPass){
+// alert("Access granted")
+// }
+
+// }
+
+// for of loops
+
+// var numbers = [2, 3, 4, 5, 6];
+// for(var value of numbers){
+//     if(value !== 10){
+//         alert("10 is not present")
+//     }
+// }
+
+// var numbers = [2, 3, 4, 5, 6];
+//  for(var value of numbers){
+//     console.log(value);
+//     if(value == 10){
+//         alert("10 is not present")
+//     }
+//     else{
+//         alert("10 is not present")
+//     }
+//  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
