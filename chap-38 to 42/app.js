@@ -3,17 +3,61 @@
 //1. Write a custom function power ( a, b ), to calculate the value of
 // a raised to b.
 
-
+function power(a,b){
+    var result = a**b;
+    console.log(result);
+}
+power(3,4);
 
 // Task 2
 //Any year is entered through the keyboard. Write a function to determine whether the year is a leap year or not.
 
+// function power(a,b){
+//     console.log(a**b);
+// }
+// power(5,9)
 
+// var year = +prompt("enter a year");
+// switch(year){
+//     case "2012" :
+//         console.log("leap year");
+//         break;
+
+//         case "2016" :
+//         console.log("leap year");
+//         break;
+
+//         case "2020" :
+//         console.log("leap year");
+//         break;
+
+//         default :
+//         console.log("this not a year");
+// }
 
 // Task 3
 //If the lengths of the sides of a triangle are denoted by a, b, and c, then area of triangle is given by area = S(S − a)(S − b)(S − c) where, S = ( a + b + c ) / 2
 
+// var a = +prompt("enter your first side");
+// var b = +prompt("enter your second side");
+// var c = +prompt("enter your third side");
 
+// function findingS(a,b,c){
+//   var S = (a+b+c)/2
+//   return S;
+// }
+// var foundS = findingS(a,b,c)
+
+//  console.log(foundS)
+//  findingS(a,b,c)
+
+// function area(foundS){
+//     var findingArea = findingS*(foundS-a)*(foundS-b)*(foundS-c)
+//   return findingArea
+// }
+
+// var result = area(foundS)
+// console.log(result)
 
 // Task 4
 

@@ -173,21 +173,84 @@
 //     }
 //  }
 
+// Swal.fire({
+//     title: "Submit your Github username",
+//     input: "text",
+//     inputAttributes: {
+//       autocapitalize: "off"
+//     },
+//     showCancelButton: true,
+//     confirmButtonText: "Look up",
+//     showLoaderOnConfirm: true,
+//     preConfirm: async (login) => {
+//       try {
+//         const githubUrl = `
+//           https://api.github.com/users/${login}
+//         `;
+//         const response = await fetch(githubUrl);
+//         if (!response.ok) {
+        //     return Swal.showValidationMessage(`
+        //         ${JSON.stringify(await response.json())}
+        //       `);
+        //     }
+        //     return response.json();
+        //   } catch (error) {
+        //     Swal.showValidationMessage(`
+        //       Request failed: ${error}
+        //     `);
+        //   }
+        // },
+        // allowOutsideClick: () => !Swal.isLoading()
+    //   }).then((result) => {
+    //     if (result.isConfirmed) {
+    //       Swal.fire({
+    //         title: `${result.value.login}'s avatar`,
+    //         imageUrl: result.value.avatar_url
+    //       });
+    //     }
+    //   });
+      
+    //   Swal.fire({
+    //     title: "Custom width, padding, color, background.",
+    //     width: 600,
+    //     padding: "3em",
+    //     color: "#716add",
+    //     background: "#fff url(/images/trees.png)",
+    //     backdrop: `
+    //       rgba(0,0,123,0.4)
+    //       url("/images/nyan-cat.gif")
+    //       left top
+    //       no-repeat
+    //     `
+    //   });
 
+// non primitive or reference
+// var array1 = [1,2,3];
+// var array2 = array1;
+// array1.push(4)
+// console.log(array1);
+// console.log(array2);
 
+// var num1 = 2;
+// var num2 = num1;
+// num1 = num1 + 5;
+// console.log(num1);
+// console.log(num2);
 
+// var cities = ["karachi","islamabad","lahore"]
+// var userCity = prompt("What's your city").toLowerCase()
+// for(var i = 0;i<cities.length; i++){
+//     if(cities[i] == userCity){
+//         alert("your city is found");
+//         break;
+//     }
+// }
 
-
-
-
-
-
-
-
-
-
-
-
+// var stuNames = "maHnoOr jaweriya noor";
+// var array1 = stuNames.split(" ");
+// for(var i=0; i<array1.length; i++){
+//     console.log(array1[i][0].toUpperCase()+array1[i].slice(1).toLowerCase());
+// }
 
 
 
