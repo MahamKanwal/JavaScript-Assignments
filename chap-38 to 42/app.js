@@ -3,11 +3,11 @@
 //1. Write a custom function power ( a, b ), to calculate the value of
 // a raised to b.
 
-function power(a,b){
-    var result = a**b;
-    console.log(result);
-}
-power(3,4);
+// function power(a,b){
+//     var result = a**b;
+//     console.log(result);
+// }
+// power(3,4);
 
 // Task 2
 //Any year is entered through the keyboard. Write a function to determine whether the year is a leap year or not.
