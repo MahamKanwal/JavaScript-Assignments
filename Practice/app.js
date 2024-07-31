@@ -252,7 +252,10 @@
 //     console.log(array1[i][0].toUpperCase()+array1[i].slice(1).toLowerCase());
 // }
 
-                 //   EVENTS
+
+
+
+//   EVENTS
 
 
 
