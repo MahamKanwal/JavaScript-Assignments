@@ -173,42 +173,42 @@
 //     }
 //  }
 
-// Swal.fire({
-//     title: "Submit your Github username",
-//     input: "text",
-//     inputAttributes: {
-//       autocapitalize: "off"
-//     },
-//     showCancelButton: true,
-//     confirmButtonText: "Look up",
-//     showLoaderOnConfirm: true,
-//     preConfirm: async (login) => {
-//       try {
-//         const githubUrl = `
-//           https://api.github.com/users/${login}
-//         `;
-//         const response = await fetch(githubUrl);
-//         if (!response.ok) {
-        //     return Swal.showValidationMessage(`
-        //         ${JSON.stringify(await response.json())}
-        //       `);
-        //     }
-        //     return response.json();
-        //   } catch (error) {
-        //     Swal.showValidationMessage(`
-        //       Request failed: ${error}
-        //     `);
-        //   }
-        // },
-        // allowOutsideClick: () => !Swal.isLoading()
-    //   }).then((result) => {
-    //     if (result.isConfirmed) {
-    //       Swal.fire({
-    //         title: `${result.value.login}'s avatar`,
-    //         imageUrl: result.value.avatar_url
-    //       });
-    //     }
-    //   });
+Swal.fire({
+    title: "Submit your Github username",
+    input: "text",
+    inputAttributes: {
+      autocapitalize: "off"
+    },
+    showCancelButton: true,
+    confirmButtonText: "Look up",
+    showLoaderOnConfirm: true,
+    preConfirm: async (login) => {
+      try {
+        const githubUrl = `
+          https://api.github.com/users/${login}
+        `;
+        const response = await fetch(githubUrl);
+        if (!response.ok) {
+            return Swal.showValidationMessage(`
+                ${JSON.stringify(await response.json())}
+              `);
+            }
+            return response.json();
+          } catch (error) {
+            Swal.showValidationMessage(`
+              Request failed: ${error}
+            `);
+          }
+        },
+        allowOutsideClick: () => !Swal.isLoading()
+      }).then((result) => {
+        if (result.isConfirmed) {
+          Swal.fire({
+            title: `${result.value.login}'s avatar`,
+            imageUrl: result.value.avatar_url
+          });
+        }
+      });
       
     //   Swal.fire({
     //     title: "Custom width, padding, color, background.",
@@ -254,8 +254,22 @@
 
 
 
-
 //   EVENTS
 
 
 
+// function fillCity() {
+//      var cityName;
+//      var zipEntered = document.getElementById("zip").value;
+//      switch (zipEntered) {
+//         case "60608":
+//            cityName = "Chicago";
+//            break;
+//         case "68114":
+//            cityName = "Omaha";
+//            break;
+//         case "53212":
+//            cityName = "Milwaukee";
+//      }
+//      document.getElementById("city").value = cityName;
+//   }
